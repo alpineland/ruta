@@ -1,0 +1,7 @@
+{
+	"extends": "@ydcjeff/configs/tsconfig",
+	"include": ["./**/*"],
+	"compilerOptions": {
+		"moduleResolution": "node"
+	}
+}

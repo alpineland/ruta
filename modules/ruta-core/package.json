@@ -4,12 +4,19 @@
 	"type": "module",
 	"author": "Jeff Yang",
 	"license": "MIT",
-	"keywords": ["router", "ruta"],
+	"keywords": [
+		"router",
+		"ruta"
+	],
 	"types": "./index.d.ts",
 	"exports": {
 		".": {
 			"types": "./index.d.ts",
 			"import": "./mod.js"
 		}
+	},
+	"dependencies": {
+		"esm-env": "^1.0.0",
+		"urlpattern-polyfill": "^6.0.2"
 	}
 }

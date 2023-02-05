@@ -16,9 +16,13 @@
 		".": {
 			"types": "./index.d.ts",
 			"import": "./mod.js"
-		}
+		},
+		"./components/*": "./components/*"
 	},
 	"peerDependencies": {
 		"svelte": "^3.50.1"
+	},
+	"dependencies": {
+		"ruta-core": "workspace:*"
 	}
 }
